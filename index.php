@@ -1,4 +1,8 @@
 <?php
-echo "hello！！";
+$name = '金';
 
-echo "PHP初めて見た！";
+if (mb_strlen($name) >= 2) {
+    echo '2文字以上です。';
+} else {
+    echo '2文字未満です。';
+}
